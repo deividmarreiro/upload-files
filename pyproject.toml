@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "upload-files"
+version = "0.1.0"
+description = ""
+authors = ["Deivid Marreiro <davidteixeiro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.11"
+pydantic = "^2.10.6"
+dotenv = "^0.9.9"
+uvicorn = "^0.34.0"
+httpx = "^0.28.1"
+python-multipart = "^0.0.20"
+
+
+[tool.poetry.group.dev.dependencies]
+terraform-local = "^0.20.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
